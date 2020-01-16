@@ -5,7 +5,7 @@ displays this information on the website.
 
 # Quickstart
 
-Сreate .env file and add parametrs according to your databasegit:   
+Сreate .env file and add parametrs according to your database:   
 HOST=host   
 PORT=port  
 NAME=name  
