@@ -6,7 +6,8 @@ displays this information on the website.
 # Quickstart
 
 Сreate `.env` file and add parametrs according to your database:   
-```HOST=host   
+```  
+HOST=host   
 PORT=port  
 NAME=name  
 USER=user   
