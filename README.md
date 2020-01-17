@@ -5,14 +5,14 @@ displays this information on the website.
 
 # Quickstart
 
-Сreate .env file and add parametrs according to your databasegit:   
-HOST=host   
+Сreate `.env` file and add parametrs according to your database:   
+```HOST=host   
 PORT=port  
 NAME=name  
 USER=user   
 PASSWORD=password   
 SECRET_KEY=secret_key
-
+```
 Example of script launch on Linux, Python 3.6:
 
 ```bash
