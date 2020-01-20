@@ -18,8 +18,5 @@ Example of script launch on Linux, Python 3.6:
 
 ```bash
 ~$pip install -r requirements.txt
-~$python main.py
+~$python manage.py runserver 0.0.0.0:8000
 ```
-
-
-Server starts at http://0.0.0.0:8000/
