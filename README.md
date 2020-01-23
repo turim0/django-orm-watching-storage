@@ -5,18 +5,19 @@ displays this information on the website.
 
 # Quickstart
 
-Сreate `.env` file and add parametrs according to your database:   
+Сreate `.env` file and add parametrs:   
 ```  
-HOST=host   
-PORT=port  
-NAME=name  
-USER=user   
-PASSWORD=password   
+DATABASE_URL=postgresql://user:password@host:port/database
+DEBUG=False   
 SECRET_KEY=secret_key
 ```
+Availble enviroment params your can take from [documetation](https://docs.djangoproject.com/en/3.0/ref/settings/)
+
 Example of script launch on Linux, Python 3.6:
 
 ```bash
-~$pip install -r requirements.txt
-~$python manage.py runserver 0.0.0.0:8000
+$ pip install -r requirements.txt
+$ python manage.py runserver 0.0.0.0:8000
 ```
+#Project Goals
+The code is written for educational purposes - this is a lesson in the course on Python and web development on the site Devman.
