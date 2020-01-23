@@ -19,5 +19,6 @@ Example of script launch on Linux, Python 3.6:
 $ pip install -r requirements.txt
 $ python manage.py runserver 0.0.0.0:8000
 ```
-#Project Goals
+# Project Goals
+
 The code is written for educational purposes - this is a lesson in the course on Python and web development on the site Devman.
